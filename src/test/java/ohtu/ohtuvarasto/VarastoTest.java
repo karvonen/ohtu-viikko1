@@ -97,7 +97,7 @@ public class VarastoTest {
     @Test
     public void otetaanNegatiivinenMaara() {
         double saatiin = varasto.otaVarastosta(-1);
-        assertEquals(1.0, saatiin, vertailuTarkkuus);
+        assertEquals(0.0, saatiin, vertailuTarkkuus);
     }
     
 }
